@@ -1,0 +1,31 @@
+# Sistema de Gestión de Empleados
+
+Este proyecto fue desarrollado como práctica para la asignatura de **Arquitectura de Software**. Consiste en una aplicación web full-stack que implementa las operaciones de un sistema CRUD (Crear, Leer, Actualizar y Eliminar) completo.
+
+## Descripción del Proyecto
+
+La aplicación permite gestionar el registro de empleados de forma intuitiva. Cuenta con un formulario principal para la captura de datos y una tabla dinámica en la misma vista que reacciona a los cambios en tiempo real. La arquitectura del proyecto separa de manera clara las responsabilidades del cliente (Frontend) y el servidor (Backend).
+
+## Funcionalidades Principales
+
+- **Crear (Create):** Registro de nuevas personas en el sistema mediante el formulario.
+- **Leer (Read):** Visualización del listado histórico de los empleados registrados en una tabla de datos.
+- **Actualizar (Update):** Selección y modificación de la información de los usuarios existentes.
+- **Eliminar (Delete):** Remoción de registros directamente desde la interfaz de la tabla.
+
+## Arquitectura y Tecnologías
+
+## Arquitectura:
+
+- Modelo cliente-servidor con separación frontend/backend.
+- Backend basado en API REST.
+  \*Organización modular (controladores, rutas, modelos, servicios).
+
+## Tecnologías:
+
+- Node.js
+- Express
+- React
+- MySQL
+- JavaScript/TypeScript (según el proyecto)
+- Axios o fetch para consumo de API desde el frontend
